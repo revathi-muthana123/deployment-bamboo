@@ -1,0 +1,29 @@
+---
+
+- src: git+https://scr.bsh-sdd.com/scm/sdds/role-library
+  version: '0.7'
+  name: library
+
+- src: git+https://scr.bsh-sdd.com/scm/sdds/role-common
+  version: '0.11'
+  name: common
+
+- src: git+https://scr.bsh-sdd.com/scm/sdds/role-mail
+  version: '0.1'
+  name: mail
+
+- src: git+https://scr.bsh-sdd.com/scm/sdds/role-java
+  version: '0.3'
+  name: java
+
+- src: git+https://scr.bsh-sdd.com/scm/sdds/role-newrelic
+  version: '0.4'
+  name: newrelic
+
+- src: git+https://scr.bsh-sdd.com/scm/sdds/role-bamboo
+  version: '0.5'
+  name: bamboo
+
+- src: git+https://scr.bsh-sdd.com/scm/sdds/role-clamav
+  version: '0.5'
+  name: clamav

@@ -1,0 +1,16 @@
+- hosts: [localhost]
+  pre_tasks:
+    - name: Detect host environment
+      import_role:
+        name: library
+        tasks_from: detect_environment.yml
+
+  roles:
+    - common
+    - mail
+    - java
+    - newrelic
+    - bamboo
+    - clamav
+
+  become: true

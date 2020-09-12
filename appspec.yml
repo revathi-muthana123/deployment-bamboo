@@ -1,0 +1,8 @@
+version: 0.0
+os: linux
+files:
+  - source: /ansible/
+    destination: /home/ubuntu/ansible/
+hooks:
+  AfterInstall:
+    - location: /scripts/ansible.sh

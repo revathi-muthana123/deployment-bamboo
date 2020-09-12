@@ -1,0 +1,9 @@
+.idea
+.vagrant
+playbook.yml
+Vagrantfile
+vault_password_file
+roles/
+/target/source/
+/target/bambooForCodeDeploy.zip
+site.retry
